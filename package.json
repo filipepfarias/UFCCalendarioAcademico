@@ -1,0 +1,20 @@
+{
+  "name": "ufccalendarioacademico",
+  "version": "1.0.0",
+  "description": "UFCCalendarioAcademico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filippfarias/UFCCalendarioAcademico.git"
+  },
+  "author": "Filipe Farias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filippfarias/UFCCalendarioAcademico/issues"
+  },
+  "homepage": "https://github.com/filippfarias/UFCCalendarioAcademico#readme"
+}
