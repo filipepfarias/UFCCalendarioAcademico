@@ -1,0 +1,789 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:ZIXfftBUWO3MYIKBNMMrm
+SUMMARY:Pós-graduação lato sensu: período de matrícula 2021.1 de alunos nov
+	os/veteranos (via internet na coordenação de curso) -  Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210301
+END:VEVENT
+BEGIN:VEVENT
+UID:FqoR8hn9FaY1p8HTnddk0
+SUMMARY:Pós-graduação stricto sensu: período de oferta de disciplinas para 
+	o semestre 2021.1 – Início Período de matrícula 2021.1 de alunos veteranos
+	 / novatos (via Internet) – Início 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210301
+END:VEVENT
+BEGIN:VEVENT
+UID:xaUKM3dmVIA5TV6SwQsHn
+SUMMARY:Pós-graduação stricto sensu: homologação das matrículas 2021.1 pelo
+	s orientadores / coordenadores de cursos (via Internet) - Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210301
+END:VEVENT
+BEGIN:VEVENT
+UID:x2KkL5FH7-rEXEQQDix7o
+SUMMARY:Término do Semestre Letivo 2020.2 (Cursos de graduação presenciais)
+	 Último dia para pedidos de Trancamento Total\, referente ao semestre 2020
+	.2 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210410
+END:VEVENT
+BEGIN:VEVENT
+UID:wNNRovGhuADzXyRxS09R0
+SUMMARY:Término do prazo para encaminhamento à PROGRAD/COPAC de processos d
+	e atualizações em estruturas curriculares de cursos de graduação para impl
+	antação a partir do período letivo 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210410
+END:VEVENT
+BEGIN:VEVENT
+UID:8SOE4_7gLmR8p2chRzubQ
+SUMMARY:Último dia para para requerimento de Distinção Acadêmica (Cum Laude
+	\, Magna Cum Laude e Summa Cum Laude) nas Coordenações de Curso de Graduaç
+	ão pelos alunos concludentes do semestre 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210411
+END:VEVENT
+BEGIN:VEVENT
+UID:n7tLe_9X2C63bhakPV-hk
+SUMMARY:Consolidação das sínteses de notas e frequências 2020.2 das discipl
+	inas semestrais e anuais pelos professores – Prazo Final
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210419
+END:VEVENT
+BEGIN:VEVENT
+UID:ENfJnFizKgVodRlhjhsQB
+SUMMARY:Data de fechamento para cálculo do IRA-Individual e do IRA-Geral em
+	 todos os cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210420
+END:VEVENT
+BEGIN:VEVENT
+UID:_GAbVviQW16o71v6jAgyS
+SUMMARY:Publicação na Internet da Oferta de Turmas para Matrícula no semest
+	re 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210420
+END:VEVENT
+BEGIN:VEVENT
+UID:GfZH8YYPo2ISOT0s6B9Fj
+SUMMARY:Graduação a distância: período de Matrícula Curricular e Institucio
+	nal 2021.1 (via Internet)  
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210426
+DTEND;VALUE=DATE:20210429
+END:VEVENT
+BEGIN:VEVENT
+UID:dOCnDllVBGcA7451Z6w1F
+SUMMARY:Pós-graduação stricto sensu:  período de oferta de disciplinas para
+	 o semestre 2021.1 – Término Período de matrícula 2021.1 de alunos veteran
+	os / novatos (via Internet) –  Término 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210429
+END:VEVENT
+BEGIN:VEVENT
+UID:I9541nHghCT7DSK0BZqnI
+SUMMARY:Pós-graduação stricto sensu: homologação das matrículas 2021.1 pelo
+	s orientadores / coordenadores de cursos (via Internet) - Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210430
+END:VEVENT
+BEGIN:VEVENT
+UID:6LKCB-ulRK_sRfDDxQKVY
+SUMMARY:Graduação a distância: período de Ajuste de Matrícula 2021.1 (via I
+	nternet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210505
+DTEND;VALUE=DATE:20210507
+END:VEVENT
+BEGIN:VEVENT
+UID:nBiEFxOaapmSLueTqQ3bV
+SUMMARY:Graduação a distância: início do período letivo 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210510
+END:VEVENT
+BEGIN:VEVENT
+UID:b-2UPI1EQdFdUcco-DtjN
+SUMMARY:Pós-graduação stricto e lato sensu: início do período letivo 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210510
+END:VEVENT
+BEGIN:VEVENT
+UID:QHQaXH6wn2UA7_uRVTBbo
+SUMMARY:Início do Período Letivo 2021.1 (cursos de graduação presenciais - 
+	sistema semestral e anual)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210510
+END:VEVENT
+BEGIN:VEVENT
+UID:xF5VrG-H1OXUNIII95OIO
+SUMMARY:Período de requerimento de matrícula 2021.1 para estudantes dos PRO
+	GRAMAS DE MOBILIDADE ACADÊMICA (nas Coordenações de Curso)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210517
+DTEND;VALUE=DATE:20210518
+END:VEVENT
+BEGIN:VEVENT
+UID:9gs-xWiaEsThK23MKGSNp
+SUMMARY:Corpus Christi - Ponto facultativo (de acordo com a Portaria nº 430
+	\, de 30 de dezembro de 2020\, do Ministério da Economia)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210603
+END:VEVENT
+BEGIN:VEVENT
+UID:CUdyqvtDE6SMRflTIhObn
+SUMMARY:Casas de Cultura Estrangeira: Início do semestre letivo 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210607
+END:VEVENT
+BEGIN:VEVENT
+UID:KlwqrSQNXzquPcCVqVMtX
+SUMMARY:Processamento do cancelamento de programas de alunos sem matrícula 
+	em disciplina\, sem trancamento total e sem matrícula institucional em 202
+	1.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210608
+END:VEVENT
+BEGIN:VEVENT
+UID:ctUzqplCi5Cr9e42yIuHu
+SUMMARY:Publicação do cancelamento de programas de alunos sem matrícula em 
+	disciplina\, sem trancamento total e sem matrícula institucional em 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210609
+END:VEVENT
+BEGIN:VEVENT
+UID:rtUhlytOLXTdlsrzUZ_Ol
+SUMMARY:Pós-graduação stricto sensu: homologação do ajuste de matrícula pel
+	os orientadores / coordenadores de cursos (via internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210614
+DTEND;VALUE=DATE:20210617
+END:VEVENT
+BEGIN:VEVENT
+UID:FkdwcRMHIYW4TR9cyYYyC
+SUMMARY:Período para solicitação de reabertura de matrícula para 2021.2 dos
+	 cursos de graduação presencial
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210614
+DTEND;VALUE=DATE:20210618
+END:VEVENT
+BEGIN:VEVENT
+UID:285EEj1bSNUM_DFpGnOHr
+SUMMARY:Graduação a distância: período para solicitação de reabertura de ma
+	trícula para 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210614
+DTEND;VALUE=DATE:20210618
+END:VEVENT
+BEGIN:VEVENT
+UID:1i7QiIxiwJ8kqwQV8cYB3
+SUMMARY:Pós-graduação stricto sensu: período de ajuste de matrícula 2021.1 
+	(via internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210614
+DTEND;VALUE=DATE:20210615
+END:VEVENT
+BEGIN:VEVENT
+UID:gDEgC-XafPWKPtMR_gLWn
+SUMMARY:Data de fechamento para o recálculo do IRA-Individual e do IRA-Gera
+	l em todos os cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210625
+END:VEVENT
+BEGIN:VEVENT
+UID:BSIWXPzT88R0jSJNW63sd
+SUMMARY:Término do prazo para encaminhamento à PROGRAD/COPAC de processo de
+	 reformulação/ajuste de Projeto Pedagógico de Curso (PPC)\, para implantaç
+	ão a partir do período letivo 2022.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210630
+END:VEVENT
+BEGIN:VEVENT
+UID:sPIz2rUri8Q229eWn76vb
+SUMMARY:Término do semestre letivo 2021.1 na UUNDC
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210630
+END:VEVENT
+BEGIN:VEVENT
+UID:_ZFf9dd-Z3W77IIgFxo4q
+SUMMARY:Último dia para para requerimento de Distinção Acadêmica (Cum Laude
+	\, Magna Cum Laude e Summa Cum Laude)\, nas Coordenações de Curso de Gradu
+	ação\, pelos alunos concludentes do semestre 2020.2.
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210702
+END:VEVENT
+BEGIN:VEVENT
+UID:4hHMInye2znN9wNYY-sWB
+SUMMARY:Feriado Municipal em SOBRAL – Aniversário de Sobral
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210705
+END:VEVENT
+BEGIN:VEVENT
+UID:Q1npT70OkwkZtX6bjobrS
+SUMMARY:Graduação a distância: trancamento parcial de matrícula 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210705
+DTEND;VALUE=DATE:20210707
+END:VEVENT
+BEGIN:VEVENT
+UID:QFKdw-QjKcmr7qM9BWyvg
+SUMMARY:Período de supressão de matrícula 2021.1 (via internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210705
+DTEND;VALUE=DATE:20210709
+END:VEVENT
+BEGIN:VEVENT
+UID:9EuLpDgm989jT-MLuKAJq
+SUMMARY:Feriado Municipal em CRATEÚS – Emancipação Política
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210706
+END:VEVENT
+BEGIN:VEVENT
+UID:NtSlMyX75Xa4auo9OoJDt
+SUMMARY:Graduação a distância: período de resposta\, por parte da Diretoria
+	 de Unidades Acadêmica\, às demandas de turma para matrícula 2021.2 feitas
+	 pelas Coordenações dos Cursos de graduação a distância 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210712
+DTEND;VALUE=DATE:20210716
+END:VEVENT
+BEGIN:VEVENT
+UID:vSLn4DPsqjlpkDtKa_EJS
+SUMMARY:Graduação a distância: período de resposta\, por parte da Diretoria
+	 de Unidades Acadêmica\, às demandas de turma para matrícula 2021.2 feitas
+	 pelas Coordenações dos Cursos de graduação a distância 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210723
+DTEND;VALUE=DATE:20210730
+END:VEVENT
+BEGIN:VEVENT
+UID:ZvSDW1gxdYEawlG5O3Flh
+SUMMARY:Início do semestre letivo 2021.2 na UUNDC
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210802
+END:VEVENT
+BEGIN:VEVENT
+UID:-IfVg9cGgIkGKW9cP6E2n
+SUMMARY:Período de demanda de turmas regulares semestrais e anuais para Mat
+	rícula 2021.2 pelas Coordenações de Cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210802
+DTEND;VALUE=DATE:20210813
+END:VEVENT
+BEGIN:VEVENT
+UID:Swj47BzZPiYuO3Cdbw2Wj
+SUMMARY:Feriado Municipal em RUSSAS – Emancipação Política
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210806
+END:VEVENT
+BEGIN:VEVENT
+UID:bCkc_ekC8plFDYFuC9Mlg
+SUMMARY:Feriado Municipal em FORTALEZA – Dia de Nossa Senhora da Assunção
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210815
+END:VEVENT
+BEGIN:VEVENT
+UID:TUYX_hW9gXl6OW22uqg_O
+SUMMARY:Pós-graduação stricto sensu: homologação do trancamento parcial de 
+	matrícula em disciplinas pelos orientadores / coordenadores de cursos (via
+	 internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210816
+DTEND;VALUE=DATE:20210819
+END:VEVENT
+BEGIN:VEVENT
+UID:LOhA2DrY0S-8c2Y6W8aMq
+SUMMARY:Pós-graduação stricto sensu: trancamento parcial de matrícula 2021.
+	1 em disciplinas (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210816
+DTEND;VALUE=DATE:20210817
+END:VEVENT
+BEGIN:VEVENT
+UID:w_AgqQk0Ahg5JDjeFD8rD
+SUMMARY:Período de resposta\, por parte das Chefias de Departamento e Diret
+	orias de Unidades Acadêmicas\, às demandas de turma para matrícula 2021.2 
+	feitas pelas Coordenações dos Cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210817
+DTEND;VALUE=DATE:20210823
+END:VEVENT
+BEGIN:VEVENT
+UID:ERvOpSFicchGa79h4dVO3
+SUMMARY:Período de ajuste de demanda e oferta de turmas para matrícula 2021
+	.2 para Coordenações de Curso\, Chefias de Departamento e Diretorias de Un
+	idades Acadêmicas – Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210826
+END:VEVENT
+BEGIN:VEVENT
+UID:ep_Ls-oN-NvSYUC9KtfzE
+SUMMARY:Término do prazo para encaminhamento à PROGRAD/COPAC de processos d
+	e atualizações em estruturas curriculares de cursos de graduação para impl
+	antação a partir do período letivo 2022.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210830
+END:VEVENT
+BEGIN:VEVENT
+UID:qs2mGwGfsIQHfLQGTV-cA
+SUMMARY:Pós-graduação lato sensu: período de matrícula 2021.1 de alunos nov
+	os/veteranos (via internet na coordenação de curso) -  Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210901
+END:VEVENT
+BEGIN:VEVENT
+UID:MA3ATNR74xtndNvTC9bUp
+SUMMARY:Término do Semestre Letivo 2021.1 – 100 dias letivos (Cursos de gra
+	duação presenciais)\nÚltimo dia para pedidos de Trancamento Total\, refere
+	nte ao semestre 2021.1 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210902
+END:VEVENT
+BEGIN:VEVENT
+UID:Yre62QTuxKOx9j6aNsjtd
+SUMMARY:Casas de Cultura Estrangeira: término do semestre letivo 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210902
+END:VEVENT
+BEGIN:VEVENT
+UID:qmLrUy8xT-QN7o_EztMlY
+SUMMARY:Graduação a distância: término do período letivo 2021.1\nÚltimo dia
+	 para pedidos de Trancamento Total de matrícula\, referente ao semestre 20
+	21.1 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210902
+END:VEVENT
+BEGIN:VEVENT
+UID:2NRIeXXUyHHeuxJlhVSpv
+SUMMARY:Pós-graduação stricto e lato sensu: término do Período Letivo 2021.
+	1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210902
+END:VEVENT
+BEGIN:VEVENT
+UID:JZv0tP3evAK055VJJl0rW
+SUMMARY:Consolidação das sínteses de notas e frequências 2021.1 das discipl
+	inas semestrais e anuais pelos professores – Prazo Final
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210911
+END:VEVENT
+BEGIN:VEVENT
+UID:oGz0mYJHTgHYFeX1SGoWO
+SUMMARY:Período de ajuste de demanda e oferta de turmas para matrícula 2021
+	.2 para Coordenações de Curso\, Chefias de Departamento e Diretorias de Un
+	idades Acadêmicas – Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210911
+END:VEVENT
+BEGIN:VEVENT
+UID:UpQpaOkDGQJ2ueoat7MCH
+SUMMARY:Data de fechamento para o cálculo do IRA-Geral e IRA-Individual rel
+	ativo a 2021.1 em todos os cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210913
+END:VEVENT
+BEGIN:VEVENT
+UID:hf0OE8sVC6M0e_V7nB3Qe
+SUMMARY:Publicação na Internet da oferta de turmas para matrícula no semest
+	re 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210913
+END:VEVENT
+BEGIN:VEVENT
+UID:0Snttu3jZa4K9awPdvPlH
+SUMMARY:Pós-graduação lato sensu: período de matrícula 2021.2 de alunos nov
+	os/veteranos (via coordenação de curso) - Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210913
+END:VEVENT
+BEGIN:VEVENT
+UID:Z-XzSYJB_60pXrCEKzP_e
+SUMMARY:Graduação a distância: período de Matrícula Curricular e Institucio
+	nal 2021.2 (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210913
+DTEND;VALUE=DATE:20210916
+END:VEVENT
+BEGIN:VEVENT
+UID:azGMMHoQbdD4Pv8NZcbdh
+SUMMARY:Pós-graduação stricto sensu: oferta de disciplinas para o semestre 
+	2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210913
+DTEND;VALUE=DATE:20210917
+END:VEVENT
+BEGIN:VEVENT
+UID:CJhomnetsTX-1CMc7u-q5
+SUMMARY:Graduação a distância: período de Ajuste de Matrícula 2021.2 (via I
+	nternet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210921
+DTEND;VALUE=DATE:20210923
+END:VEVENT
+BEGIN:VEVENT
+UID:Rtz2wSvUQmqhGEA_ame3_
+SUMMARY:Pós-graduação stricto sensu: período de matrícula 2021.2 de alunos 
+	veteranos / novatos (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210921
+DTEND;VALUE=DATE:20210923
+END:VEVENT
+BEGIN:VEVENT
+UID:oIeVZf2kIQv5ZmapVF6e0
+SUMMARY:Pós-graduação stricto sensu: homologação das matrículas 2021.2 pelo
+	s orientadores / coordenadores de cursos (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210921
+DTEND;VALUE=DATE:20210924
+END:VEVENT
+BEGIN:VEVENT
+UID:JCoIXKYct3RVNRptaTVmv
+SUMMARY:Graduação a distância: início do período letivo 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210927
+END:VEVENT
+BEGIN:VEVENT
+UID:IGM_-zOaY_XzGOPzDSGj7
+SUMMARY:Pós-graduação stricto e lato sensu: início do período letivo 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210927
+END:VEVENT
+BEGIN:VEVENT
+UID:lCQzVRR9H23n_FKoz24wx
+SUMMARY:Início do Período Letivo 2021.2 (cursos de graduação presenciais - 
+	sistema semestral e anual)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20210927
+END:VEVENT
+BEGIN:VEVENT
+UID:7ToeP4nAtdTLo_LtxNMSa
+SUMMARY:Período de requerimento de matrícula 2021.2 para estudantes dos PRO
+	GRAMAS DE MOBILIDADE ACADÊMICA (nas Coordenações de Curso)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211004
+DTEND;VALUE=DATE:20211005
+END:VEVENT
+BEGIN:VEVENT
+UID:1Uv6aLHGj1MxleVCHl1PP
+SUMMARY:Feriado Municipal em RUSSAS – Dia da Padroeira (N. Sra. do Rosário)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211007
+END:VEVENT
+BEGIN:VEVENT
+UID:3cUUA0SBOTfegt3tnuFRa
+SUMMARY:I Semana de Engenharia na Biblioteca de Pós-graduação em Engenharia
+	-Prof. Expedito José de Sá Parente – Biblioteca Universitária
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211020
+DTEND;VALUE=DATE:20211022
+END:VEVENT
+BEGIN:VEVENT
+UID:-aHjdOLGUU7DiDVVSntjr
+SUMMARY:Feriado Municipal em QUIXADÁ – Dia do Município
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211027
+END:VEVENT
+BEGIN:VEVENT
+UID:VrFJ8QzpzljtbH-VKyOxL
+SUMMARY:Ponto facultativo - Dia do Servidor Público – alusivo ao dia 28 de 
+	outubro (de acordo com a Portaria nº 430\, de 30 de dezembro de 2020\, do 
+	Ministério da Economia)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211101
+END:VEVENT
+BEGIN:VEVENT
+UID:eHJlWzciHRAfzeh-QDZ4X
+SUMMARY:Processamento do cancelamento de programas de alunos sem matrícula 
+	em disciplina\, sem trancamento total e sem matrícula institucional em 202
+	1.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211103
+END:VEVENT
+BEGIN:VEVENT
+UID:APFZcBDBNWSwO-2AL6h3A
+SUMMARY:Último dia para para requerimento de Distinção Acadêmica (Cum Laude
+	\, Magna Cum Laude e Summa Cum Laude) nas Coordenações de Curso de Graduaç
+	ão pelos alunos concludentes do semestre 2021.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211103
+END:VEVENT
+BEGIN:VEVENT
+UID:w5xNfVGznrRnKwvPP2oVU
+SUMMARY:Publicação do cancelamento de programas de alunos sem matrícula em 
+	disciplina\, sem trancamento total e sem matrícula institucional em 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211104
+END:VEVENT
+BEGIN:VEVENT
+UID:IrNTwPhIfL0R0DjWsp-dv
+SUMMARY:Período para solicitação de reabertura de matrícula para 2022.1 dos
+	 cursos de graduação presencial
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211108
+DTEND;VALUE=DATE:20211112
+END:VEVENT
+BEGIN:VEVENT
+UID:N3bTOkby9ySm95jdzTjsc
+SUMMARY:Período de supressão de matrícula 2021.2 (via internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211108
+DTEND;VALUE=DATE:20211112
+END:VEVENT
+BEGIN:VEVENT
+UID:OhLSc8a_74fIPglgGr3kW
+SUMMARY:Graduação a distância: período de solicitação de reabertura de matr
+	ícula para 2022.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211108
+DTEND;VALUE=DATE:20211112
+END:VEVENT
+BEGIN:VEVENT
+UID:l_ARQfBajcBABpXMeGzPt
+SUMMARY:Data de fechamento para recálculo do IRA-Individual e do IRA-Geral 
+	em todos os cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211119
+END:VEVENT
+BEGIN:VEVENT
+UID:IBupnpOPfbu1zhn1mhr8j
+SUMMARY:Pós-graduação stricto sensu: homologação do ajuste de matrícula pel
+	os orientadores / coordenadores de cursos (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211122
+DTEND;VALUE=DATE:20211125
+END:VEVENT
+BEGIN:VEVENT
+UID:8E7Qg6nka7wWNzhJlQdBh
+SUMMARY:Pós-graduação stricto sensu: período de ajuste de matrícula 2021.2 
+	(via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211122
+DTEND;VALUE=DATE:20211123
+END:VEVENT
+BEGIN:VEVENT
+UID:dZG-WOx2mTmuTt24dmtn9
+SUMMARY:Feriado Municipal em RUSSAS - Passagem da Imagem de Nossa Senhora d
+	e Fátima por Russas
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211127
+END:VEVENT
+BEGIN:VEVENT
+UID:3aEOBKN2AhEfScDJhWo3Q
+SUMMARY:Período de demanda de turmas para Matrícula 2022.1 pelas Coordenaçõ
+	es de Cursos de graduação a distância – Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211129
+END:VEVENT
+BEGIN:VEVENT
+UID:fhX7yprzskt2Mcb8eMYNX
+SUMMARY:Período de demanda de turmas regulares semestrais e anuais para Mat
+	rícula 2022.1 pelas coordenações de cursos de graduação – Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211129
+END:VEVENT
+BEGIN:VEVENT
+UID:eOHdMj8z5unrjWRFuHXR7
+SUMMARY:Período de demanda de turmas para Matrícula 2022.1 pelas Coordenaçõ
+	es de Cursos de graduação a distância - Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211203
+END:VEVENT
+BEGIN:VEVENT
+UID:fEr5gE4JC54C00OPYoqUD
+SUMMARY:Graduação a distância: trancamento parcial de matrícula 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211206
+DTEND;VALUE=DATE:20211208
+END:VEVENT
+BEGIN:VEVENT
+UID:rOJHwoWRSYJIIwnyhJ3cP
+SUMMARY:Período de demanda de turmas regulares semestrais e anuais para Mat
+	rícula 2022.1 pelas coordenações de cursos de graduação – Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211207
+END:VEVENT
+BEGIN:VEVENT
+UID:4Ygkzz36HmBSFH9SMNaYU
+SUMMARY:Feriado Municipal em SOBRAL – Nossa Senhora da Imaculada Conceição
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211208
+END:VEVENT
+BEGIN:VEVENT
+UID:0j8AMOPVzpCAzS55x5Aez
+SUMMARY:Término do semestre letivo 2021.2 na UUNDC
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211210
+END:VEVENT
+BEGIN:VEVENT
+UID:SK_1giWXiKHfDuX4y-UXR
+SUMMARY:Período de resposta\, por parte das Chefias de Departamento e Diret
+	orias de Unidades Acadêmicas\, às demandas de turma para matrícula 2022.1 
+	feitas pelas Coordenações dos Cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211213
+DTEND;VALUE=DATE:20211217
+END:VEVENT
+BEGIN:VEVENT
+UID:sWlXQcEeJVLJxuTKmCU2X
+SUMMARY:Graduação a distância: período de resposta\, por parte da Diretoria
+	 de Unidade Acadêmica\, às demandas de turma para matrícula 2022.1 feitas 
+	pelas Coordenações dos Cursos de graduação a distância 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211213
+DTEND;VALUE=DATE:20211217
+END:VEVENT
+BEGIN:VEVENT
+UID:dryX5p4p8QfjUOtRJfNAZ
+SUMMARY:Período de ajuste de demanda e oferta de turmas para matrícula 2022
+	.1 para Coordenações de Curso\, Chefias de Departamento e Diretorias de Un
+	idades Acadêmicas – Início
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211222
+END:VEVENT
+BEGIN:VEVENT
+UID:s2_fm7W1uwmLEfcbt2q5X
+SUMMARY:Véspera de natal - ponto facultativo após às 14 horas (de acordo co
+	m a Portaria nº 430\, de 30 de dezembro de 2020\, do Ministério da Economi
+	a)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211224
+END:VEVENT
+BEGIN:VEVENT
+UID:3SYeNmIY8ZwgFKrOmMviC
+SUMMARY:Véspera de Ano Novo - ponto facultativo após às 14 horas (de acordo
+	 com a Portaria nº 430\, de 30 de dezembro de 2020\, do Ministério da Econ
+	omia)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20211231
+END:VEVENT
+BEGIN:VEVENT
+UID:5XZXDy40oU4Ywds1LWdUg
+SUMMARY:Retomada do Período Letivo 2021.2 (cursos de graduação presenciais 
+	- sistema semestral e anual)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220110
+END:VEVENT
+BEGIN:VEVENT
+UID:HZKRkkaGY4E7L-j-xea_T
+SUMMARY:Pós-graduação stricto sensu: homologação do trancamento em discipli
+	nas pelos orientadores / coordenadores de cursos (via Internet)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220110
+DTEND;VALUE=DATE:20220113
+END:VEVENT
+BEGIN:VEVENT
+UID:NTna8PP7mVY0oFpAoa-gZ
+SUMMARY:Pós-graduação stricto sensu: trancamento parcial de matrícula 2021.
+	2 em disciplinas 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220110
+DTEND;VALUE=DATE:20220111
+END:VEVENT
+BEGIN:VEVENT
+UID:ooHAjZFnQRvhuLwMc1QFu
+SUMMARY:Pós-graduação lato sensu: período de matrícula 2021.2 de alunos nov
+	os/veteranos (via internet na coordenação de curso) -  Término
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220209
+END:VEVENT
+BEGIN:VEVENT
+UID:NxvCbmFTMAzSUPgoQgWEA
+SUMMARY:Término do Semestre Letivo 2021.2 – 100 dias letivos (Cursos de gra
+	duação presenciais) Último dia para pedidos de Trancamento Total\, referen
+	te ao semestre 2021.2 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220210
+END:VEVENT
+BEGIN:VEVENT
+UID:F3ACqE67PMsh_ksyLISyO
+SUMMARY:Graduação a distância: término do período letivo 2021.2\nÚltimo dia
+	 para pedidos de Trancamento Total de matrícula\, referente ao semestre 20
+	21.2 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220210
+END:VEVENT
+BEGIN:VEVENT
+UID:fDOxBd11FqLlsQ4ICackZ
+SUMMARY:Pós-graduação stricto e lato sensu: término do Período Letivo 2021.
+	2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220210
+END:VEVENT
+BEGIN:VEVENT
+UID:kxMAC_Nyb0Gog5hzrbNye
+SUMMARY:Feriado Municipal em QUIXADÁ – Dia da Padroeira do Município: Nossa
+	 Senhora Rainha do Sertão
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220211
+END:VEVENT
+BEGIN:VEVENT
+UID:zCJF1pZnBDKRbDTdSZMru
+SUMMARY:Pós-graduação stricto sensu: oferta de disciplinas para o semestre 
+	2022.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220214
+DTEND;VALUE=DATE:20220218
+END:VEVENT
+BEGIN:VEVENT
+UID:4ArFMjYNvWZZ3Cf0Evxdm
+SUMMARY:Consolidação das sínteses de notas e frequências 2021.2 das discipl
+	inas semestrais e anuais pelos professores – Prazo Final
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220219
+END:VEVENT
+BEGIN:VEVENT
+UID:kptvu5DxUBm0sOemtGMgp
+SUMMARY:Data de fechamento para o cálculo do IRA-Geral relativo a 2021.2 em
+	 todos os cursos de graduação
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220221
+END:VEVENT
+BEGIN:VEVENT
+UID:190A-kDIlJ5vtNjQCD_2S
+SUMMARY:Publicação na Internet da Oferta de Turmas para Matrícula no semest
+	re 2022.1
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220221
+END:VEVENT
+BEGIN:VEVENT
+UID:NIODp-LB0QbElZC1I8N2l
+SUMMARY:Ponto facultativo - Carnaval 
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220228
+END:VEVENT
+BEGIN:VEVENT
+UID:YX9h2BOyN8MVFgMwSfF4n
+SUMMARY:Ponto facultativo - Carnaval
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220301
+END:VEVENT
+BEGIN:VEVENT
+UID:tW6GVviuqMY9JW0FDE7sK
+SUMMARY:Ponto facultativo até as 14:00 - Quarta-feira de Cinzas
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220302
+END:VEVENT
+BEGIN:VEVENT
+UID:ZhZr2ZZ7icqM_UfuTl_TY
+SUMMARY:Último dia para para requerimento de Distinção Acadêmica (Cum Laude
+	\, Magna Cum Laude e Summa Cum Laude) nas Coordenações de Curso de Graduaç
+	ão pelos alunos concludentes do semestre 2021.2
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220411
+END:VEVENT
+BEGIN:VEVENT
+UID:85Hov35mKaiEHXcJ9Qa7u
+SUMMARY:Último dia para remessa à PROGRAD do processo eletrônico contendo r
+	elação dos alunos concludentes\, do semestre 2021.2 indicados pelas Coorde
+	nações de Curso de Graduação para concessão de distinção acadêmica (Cum La
+	ude\, Magna Cum Laude e Summa Cum Laude)
+DTSTAMP:20210825T064500Z
+DTSTART;VALUE=DATE:20220511
+END:VEVENT
+END:VCALENDAR

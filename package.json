@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
+    "ics": "^2.31.0",
     "json2csv": "^5.0.6",
     "puppeteer": "^10.2.0",
     "request": "^2.88.2",

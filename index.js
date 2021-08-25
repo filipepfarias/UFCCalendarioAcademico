@@ -1,7 +1,10 @@
-
-const rp = require('request-promise')
-const cheerio = require('cheerio')
+const ics = require('ics')
+const rp = require('request-promise');
+const cheerio = require('cheerio');
+const fs = require('fs');
 const { parse } = require('json2csv');
+const { title } = require('process');
+
 
 const options = {
     uri: 'https://www.ufc.br/calendario-universitario/2021',
@@ -10,49 +13,73 @@ const options = {
     }
 }
 
-
 rp(options)
     .then(($) => {        
-        const tables = [];
+        const events = [];
         const titles = [];
+        const filters = ['matrícula', 'graduação','semestre','Feriado Municipal','período','disciplina','facultativo'];
         $('.c-calendarios').each((i, elem) => {
             $(elem).find('h3').map((i, title) => {
                 titles.push(`${$(title).text().split(' ')[0]}/${$(title).text().split(' ')[2]}`)
             });
 
             $(elem).find('.category').map((i, table) => {
-                const handleTable = {
-                    title: titles[i],
-                    content: []
-                };
+                const monthYear  = titles[i];
 
-                const dates = [];
-                const descriptions = [];
-                const tds = [];
+                const monthNames = [
+                    'Janeiro',
+                    'Fevereiro',
+                    'Março',
+                    'Abril',
+                    'Maio',
+                    'Junho',
+                    'Julho',
+                    'Agosto',
+                    'Setembro',
+                    'Outubro',
+                    'Novembro',
+                    'Dezembro'
+                ];
+ 
+                let description = null;
                 $(table).find('td').map((i, item) => {
                     const td = $(item).text();
-                    tds.push(td);
-                });
-
-                tds.map((td, i) => {
                     if(i % 2 == 0) {
-                        dates.push(td);
+                        dateMonth = String(monthNames.indexOf(monthYear.split('/')[0])+1).padStart(2, '0');
+                        dateYear = monthYear.split('/')[1]
+                        dateMonthYear = `${dateMonth}/${dateYear}`;
+
+                        if(td.match(/ a | e /)){
+                            dateDayEnd = (td.split(' ')[2]).replace(/\D/g, "");
+                            dateDayStart = (td.split(' ')[0]).replace(/\D/g, "");
+                        } else {
+                            dateDayStart = td.replace(/\D/g, "");
+                            dateDayEnd = dateDayStart;
+                        };
                     } else {
-                        descriptions.push(td);
+                        description = td;
+                        events.push({
+                            start: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayStart)],
+                            end: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayEnd)],
+                            title: description
+                        })    
                     }
                 });
-                
-                dates.map((date, i) => {
-                    handleTable.content.push({
-                        date: date,
-                        description: descriptions[i] 
-                    })  
-                })
+            });
+            // filteredEvents = [];
+            // filters.map(f => {
+            //     const aux = events.filter(e => e.title.includes(f))
+            //     filteredEvents.push(...aux)
+            // });
+            filteredEvents = events.filter(e => filters.some(f => e.title.includes(f)))
 
-                tables.push(handleTable);
+            ics.createEvents(filteredEvents, (error, res) => {
+                if (error) {
+                  console.log(error)
+                }
+                fs.writeFileSync(`calendar.ics`, res)
             });
 
-            console.log(JSON.stringify(tables));
         });
     })
     .catch((err) => {
