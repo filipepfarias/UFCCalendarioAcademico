@@ -1,10 +1,12 @@
+const { title } = require('process');
 const ics = require('ics')
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 const fs = require('fs');
-const { parse } = require('json2csv');
-const { title } = require('process');
+var express = require('express');
+var app = express();
 
+const PORT = process.env.PORT || 3000;
 
 const options = {
     uri: 'https://www.ufc.br/calendario-universitario/2021',
@@ -85,3 +87,12 @@ rp(options)
     .catch((err) => {
         console.log(err);
     });
+
+    app.listen(PORT, function() {
+        console.log(`Servidor rodando na porta ${PORT}.`);
+      });
+
+    app.get('/calendar.ics', function(req, res){
+        const file = `${__dirname}/calendar.ics`;
+        res.download(file); // Set disposition and send it.
+      });
