@@ -14,8 +14,7 @@ const options = {
 }
 
 router.get('/', async function(request, response, next) {
-  const type = request.query.type;
-  const events = await resquestExternal();
+  const events = await resquestExternal(filters);
 
   ics.createEvents(events, (error, generetedIcs) => {
     if (error) console.log(error);
@@ -24,7 +23,19 @@ router.get('/', async function(request, response, next) {
     .attachment(`calendar.ics`)
     .send(generetedIcs)
   });
+});
 
+router.get('/filters/(:arr)*', async function(request, response, next) {
+  const filters = (request.params.arr).concat(request.params[0]).split('/');
+  const events = await resquestExternal(filters);
+
+  ics.createEvents(events, (error, generetedIcs) => {
+    if (error) console.log(error);
+
+    response.status(200)
+    .attachment(`calendar.ics`)
+    .send(generetedIcs)
+  });
 });
 
 router.get('/json', async function(request, response, next) {
@@ -87,10 +98,13 @@ async function resquestExternal(filters) {
                   })    
               }
           });
-      });      
+      });
     });
 
-    if(filters) return events.filter(e => filters.some(f => e.title.includes(f)))
+    if(filters.length > 0) {
+      console.log('filtrado', filters);
+      return events.filter(e => filters.some(f => e.title.includes(f)))
+    }
 
     return events;
   });
