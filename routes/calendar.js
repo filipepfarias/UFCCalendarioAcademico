@@ -59,7 +59,7 @@ router.get('/ics', async function(request, response, next) {
 });
 
 
-async function resquestExternal(filters) {
+async function resquestExternal(filters = []) {
   return rp(options).then(($) => {
     const events = [];
     const titles = [];
