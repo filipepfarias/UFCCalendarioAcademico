@@ -17,35 +17,38 @@ router.get('/', async function(request, response, next) {
   const type = request.query.type;
   const events = await resquestExternal();
 
-  if(type && type == 'json') {
-    response.json({ 
-      created_at: new Date(),
-      targetURL: options.uri,
-      events
-    });
-  } else {
-    ics.createEvents(events, (error, generetedIcs) => {
-      if (error) console.log(error);
+  ics.createEvents(events, (error, generetedIcs) => {
+    if (error) console.log(error);
 
-      response.send(generetedIcs)
-    });
-  }
+    response.status(200)
+    .attachment(`calendar.ics`)
+    .send(generetedIcs)
+  });
+
 });
 
-router.get('/download', async function(request, response, next) {
+router.get('/json', async function(request, response, next) {
+  const events = await resquestExternal();
+
+  response.json({ 
+    created_at: new Date(),
+    targetURL: options.uri,
+    events
+  });
+});
+
+router.get('/ics', async function(request, response, next) {
   const events = await resquestExternal();
 
   ics.createEvents(events, (error, generetedIcs) => {
     if (error) console.log(error);
 
-    response.status(201)
-      .attachment(`calendar.ics`)
-      .send(generetedIcs)
+    response.send(generetedIcs)
   });
 });
 
 
-async function resquestExternal() {
+async function resquestExternal(filters) {
   return rp(options).then(($) => {
     const events = [];
     const titles = [];
@@ -77,14 +80,17 @@ async function resquestExternal() {
               } else {
                   description = td;
                   events.push({
-                      start: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayStart)],
-                      end: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayEnd)],
-                      title: description
+                    calName: 'Calendário Acadêmico',
+                    title: description,
+                    start: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayStart)],
+                    end: [parseInt(dateYear),parseInt(dateMonth),parseInt(dateDayEnd)]
                   })    
               }
           });
       });      
     });
+
+    if(filters) return events.filter(e => filters.some(f => e.title.includes(f)))
 
     return events;
   });
